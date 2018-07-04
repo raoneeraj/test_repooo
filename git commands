@@ -1,0 +1,26 @@
+#start git init
+command: git init
+#add origin of center repository 
+command: git remote add origin"url of repo"
+#than you can pull the files from central repo
+command: git pull origin master
+#you can see the status by 
+command: git status
+#than if you want to commit the file than you have to add it to index
+command: git add 'file name' 
+	for example: git add abc.txt
+#for commiting the file 
+command: git commit -m "give any message to commit"
+note: here -m is for message
+#for adding multiple files
+command: git add -A
+note: it will add all the files
+#for commiting multiple files
+command: git commit -a -m "give any message"
+#for seeing the logs
+command: git log
+#for making a branch
+command: git branch 'branch name'
+#for checkout to any branch
+Command: git checkout 'branch name'
+#
